@@ -11,12 +11,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Tic-Tac_Toe',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const GameMainScreen(),
+    return const MaterialApp(
+      title: 'Tic-Tac-Toe',
+      home: GameMainScreen(),
     );
   }
 }
